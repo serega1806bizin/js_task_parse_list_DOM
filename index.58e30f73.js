@@ -1,0 +1,2 @@
+function r(r){return Number(r.dataset.salary)}var e,a=document.querySelector("#employee-list");(e=Array.from(a.children)).sort(function(e,a){return r(a)-r(e)}),a.innerHTML="",e.forEach(function(r){return a.appendChild(r)}),Array.from(a.children).map(function(r){return{name:r.dataset.name,position:r.dataset.position,salary:Number(r.dataset.salary),age:Number(r.dataset.age)}});
+//# sourceMappingURL=index.58e30f73.js.map
